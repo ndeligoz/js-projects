@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+
+
+}
+
+.clock {
+    color: orangered;
+    font-size: 6rem;
+    letter-spacing: 1.5rem;
+    font-family: digital;
+    text-align: center;
+
+
+}
+
+@font-face {
+    font-family: digital;
+    src: url(./digital-7.ttf);
+}
+
+footer {
+    color: #ffff;
+    margin-bottom: 40px;
+}
